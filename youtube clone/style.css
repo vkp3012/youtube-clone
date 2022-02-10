@@ -9,6 +9,7 @@ nav{
     justify-content:space-between;
     margin-top: 0rem;
     background-color:lightblack;
+    margin-left:0.5rem;
 }
 
 nav>div.main-logo{
@@ -22,6 +23,7 @@ nav>div.main-logo{
     height:52px;
     margin-left: 0.35rem;
     margin-top: 0.3rem;
+    border-radius: 3rem;
 }
 
 nav>div>h2.name{
@@ -39,7 +41,7 @@ nav>div.search-bar{
 }
 
 .search-bar input{
-    width:35rem;
+    width:25rem;
     height: 2.5rem;
     font-style: Roboto, Noto, sans-serif;
     font-size: 1rem;
@@ -72,11 +74,12 @@ nav>div.search-bar{
 }
 
 /* Meau Options */
-nav>div.options{
+.options{
     display:flex;
-    margin-left: 1rem;
+    justify-content:space-between;
+    margin-left: 3rem;
     margin-top: 0.25rem;
-    margin:0.5rem;
+    margin-right:1rem;
 } 
 
 /* Filter */
@@ -87,6 +90,7 @@ nav>div.options{
     text-align: center;
     padding: 4px 6px;
     background-color:black;
+    border-radius:3rem;
 }
 
 /* main Body */
@@ -119,7 +123,7 @@ nav>div.options{
   
 .side-nav-bar h3 {
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .main-body .main-body-side-nav img {
