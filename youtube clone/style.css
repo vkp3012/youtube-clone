@@ -96,6 +96,7 @@ nav>div.search-bar{
 /* Filter */
 .filter{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     color: #ebe6e6;
     padding: 4px 6px;
@@ -120,7 +121,7 @@ nav>div.search-bar{
 .main-body{
     display: flex;
     justify-content: space-between;
-    margin-top:0.5rem;
+    margin-top:0.1rem;
     background-color:rgb(49, 44, 44);
 }
 
@@ -153,14 +154,16 @@ nav>div.search-bar{
 .all-video-container{
     padding-top: 0.25rem;
     background-color:rgb(49, 44, 44);
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     margin-left: 0rem;
     justify-content: space-around;
+    margin: 0.1rem;
+    flex-direction: row;
 }
 
 .video-container {
-    margin: 0.25rem;
+    margin: 0.2rem;
     font-family: "Open Sans", sans-serif;
     font-size: small;
 }
@@ -168,4 +171,19 @@ nav>div.search-bar{
 .video-container img{
     width: 21rem;
     height: 10rem;
+}
+
+.video-title{
+    display: flex;
+}
+
+.video-title .video-title-icon{
+    width:45px;
+    height:3rem;
+    border-radius: 3rem;
+}
+
+.video-info{
+    margin:1rem;
+    margin-top: .1rem;
 }
