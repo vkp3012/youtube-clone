@@ -28,7 +28,6 @@ nav>div.main-logo{
 .menu-1-logo{
     width:32px;
     height:32px;
-    /* margin-left: 0.1rem; */
 }
 
 .youtube-logo{
@@ -124,7 +123,6 @@ nav>div.search-bar{
     height: 2rem;
     font-size: 1rem;
     text-align: center;
-    /* font-weight: 200; */
     border: solid #dfdfdf 0.11rem;
     border-radius: 3rem;
 }
@@ -175,7 +173,6 @@ nav>div.search-bar{
     margin: 1rem;
     margin-top: 0.2rem;
     padding-top: 0.1rem;
-    /* background-color:rgb(0, 0, 0); */
     justify-content: flex-start;
     flex-direction: row;
 }
