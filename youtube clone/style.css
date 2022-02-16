@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family:Roboto,Arial,sans-serif;
     color:#dfdfdf;
-    background-color:rgb(49, 44, 44);
+    background-color:rgb(77, 68, 68);
+}
+hr{
+    border-color:black;
 }
 
 nav{
@@ -14,12 +17,12 @@ nav{
     margin-left:0.3rem;
     margin-top: 0.5rem;
     padding: 0 16px;
+    margin-bottom: 0.5rem;
 }
 
 nav>div.main-logo{
     display:flex;
     justify-content:space-between;
-    margin-right: 1rem;
     width:32px;
     height:32px;
 }
@@ -27,12 +30,15 @@ nav>div.main-logo{
 .menu-1-logo{
     width:32px;
     height:32px;
+    margin-left: 0.2rem;
 }
 
 .youtube-logo{
     width:32px;
     height:32px;
-    border-radius: 3rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    border: solid red 1px;
 }
 
 nav>div>h2.name{
@@ -94,25 +100,33 @@ nav>div.search-bar{
 }
 
 /* Filter */
+.all-filter{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    flex-flow:column wrap;
+}
+
 .filter{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    flex-flow:row;
     color: #ebe6e6;
     padding: 4px 6px;
     box-sizing: border-box;
     border-color: #dfdfdf solid 1rem;
     border-radius:3rem;
-    margin-top:1rem;
+    margin-top:0.2rem;
+    margin-left: 0.5rem;
 }
+
 .filter-name{
-    width:13rem;
+    width:11rem;
     height: 2rem;
     font-size: 1rem;
     text-align: center;
-    font-weight: 500;
-    padding-left: 0.5rem;
-    margin-left:0.3rem;
+    font-weight: 200;
     border: solid #dfdfdf 0.11rem;
     border-radius: 3rem;
 }
@@ -120,18 +134,18 @@ nav>div.search-bar{
 /* main Body */
 .main-body{
     display: flex;
-    justify-content: space-between;
     margin-top:0.1rem;
     background-color:rgb(49, 44, 44);
 }
 
 .side-nav-bar{
     display: flex;
+    margin-top:0.2rem;
 }
 
 .main-body-side-nav img{
-    width:28px;
-    height:9px;
+    width:17%;
+    height:100%;
     margin-left:1rem;
     margin:0.5rem;
 }
@@ -152,25 +166,28 @@ nav>div.search-bar{
 }
 
 .all-video-container{
-    padding-top: 0.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow:column wrap;
+    margin-left: 1rem;
+    margin: 1rem;
+    margin-top: 0.2rem;
+    padding-top: 0.1rem;
     background-color:rgb(49, 44, 44);
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    margin-left: 0rem;
-    justify-content: space-around;
-    margin: 0.1rem;
+    justify-content: flex-start;
     flex-direction: row;
 }
 
-.video-container {
-    margin: 0.2rem;
-    font-family: "Open Sans", sans-serif;
-    font-size: small;
+.video-container img{
+    width: 20rem;
+    height: 10rem;
+    margin-top: 0.1rem;
+    margin: 0.5rem;
 }
 
-.video-container img{
-    width: 21rem;
-    height: 10rem;
+.video-container {
+    display: flex;
+    flex-flow:column wrap;
 }
 
 .video-title{
@@ -181,9 +198,15 @@ nav>div.search-bar{
     width:45px;
     height:3rem;
     border-radius: 3rem;
+    margin-top:0.1rem;
+}
+
+.video-title .dots-3{
+    width:3rem;
+    height:1rem;
 }
 
 .video-info{
-    margin:1rem;
+    margin:0.5rem;
     margin-top: .1rem;
 }
