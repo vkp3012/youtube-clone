@@ -6,15 +6,16 @@
     color:#dfdfdf;
     background-color:rgb(77, 68, 68);
 }
-hr{
+
+/* hr{
     border-color:rgb(49, 46, 46);
-}
+} */
 
 nav{
     display:flex;
     justify-content:space-between;
+    /* padding: 0 5px; */
     margin-top: 0.5rem;
-    padding: 0 5px;
     margin-bottom: 0.5rem;
 }
 
@@ -54,7 +55,6 @@ nav>div.search-bar{
     width:25rem;
     height: 2rem;
     font-size: 1rem;
-    font-weight: 700;
     padding-left: 1rem;
     margin-left:0.3rem;
     border: solid #dfdfdf 0.11rem;
@@ -86,6 +86,7 @@ nav>div.search-bar{
     display: flex;
     align-items: center;
 }
+
 .options-img{
     margin-left: 1rem;
 } 
